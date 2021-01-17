@@ -1,0 +1,398 @@
+@font-face {
+    font-family: 'montserrat-bold';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+h1, h3 {
+    font-family: 'montserrat-medium';
+    font-size: 18px;
+}
+
+h2 {
+    font-family: 'montserrat-bold';
+    font-size: 22px;
+}
+
+p, a, form {
+    font-family: 'montserrat-regular';
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    padding-right: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 15vh;
+}
+
+header {
+    padding: 15px 10px 0 10px;
+    background-color: #E9BBBD;
+    color: white;
+    height: 100vh;
+    background-image: url("./photos/Mask\ Group\ 13.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position: bottom;
+    background-size: contain;
+}
+
+header a {
+    color: white;
+}
+
+header h2 {
+    margin-top: 2vh;
+}
+
+header div {
+    margin-top: 5vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 8px 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+main {
+    padding: 0px 10px;
+}
+
+section {
+    margin-bottom: 8vh;
+}
+
+main img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+main figure {
+    margin: 25px 0;
+}
+
+main ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+section h2, h3 {
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+}
+
+.black {
+    color: white;
+    background-color: black;
+    margin: 0 -10px 8vh -10px;
+    padding: 10px 10px 70px 10px;
+}
+
+.black ul {
+    margin-top: 55px;
+}
+
+.one {
+    background-color: #0F0D0D;
+    color: white;
+}
+
+.two {
+    background-color: white;
+    color: black;
+}
+
+.instagram a {
+    color: black;
+}
+
+.instagram h3 {
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 30vw;
+}
+
+.none {
+    display: none;
+}
+
+
+
+footer {
+    color: white;
+    background-color: #0F0D0D;
+    padding: 30px 10px;
+}
+
+footer h3 {
+    text-align: left ;
+}
+
+footer p {
+    color: #6691B2;
+}
+
+footer ul {
+    display: flex;
+    width: 45vw;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+footer i {
+    padding: 0;
+}
+
+footer li {
+    width: 20px;
+    padding: 10px;
+    border: 1px solid #6691B2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    margin: 20px 0;
+}
+
+footer a {
+    color: white;
+}
+
+.fillin {
+    border: 1px solid #6691B2;
+    background-color: #0F0D0D;
+    color: darkgrey;
+    margin: 30px 0 10px 0; 
+}
+
+.blue {
+    background-color: #6691B2;
+    color: white;
+    border: none;
+}
+
+
+
+@media only screen and (min-width: 720px) {
+    h1, h3 {
+        font-size: 26px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    p, a, form {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 50px 50px 0 50px;
+        background-image: url("./photos/header-tablet.jpg");
+    }
+
+    main {
+        margin: 50px;
+        padding: 0;
+    }
+
+    main img {
+        width: 600px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+
+    .button {
+        padding: 15px 30px;
+        margin-bottom: 30px;
+    }
+
+    .black {
+        margin: -50px;
+        padding: 10px 50px 110px 50px;
+    }
+
+    .black ul {
+        margin-top: 70px;
+        justify-content: center;
+    }
+
+    .black li {
+        margin: 15px;
+    }
+
+    .instagram {
+        margin-top: 12vh;
+    }
+
+    .gallery img {
+        width: 25vw;
+        margin: 5px;
+    }
+
+    footer {
+        padding: 70px 50px;
+    }
+
+    footer ul {
+        width: 20vw;
+        margin-top: 70px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        background-image: url("./photos/header_desktop.jpg");
+        background-position-x: right;
+        padding: 60px 0 0 230px;
+    }
+
+    header ul {
+        width: 40vw;
+    }
+
+    header h2 {
+        max-width: 25vw;
+    }
+
+    h1 {
+        margin-top: 35vh;
+    }
+
+    main {
+        margin: 60px 230px;
+        padding: 0;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    article p {
+        margin-left: 30px;
+    }
+
+    main img {
+        width: 550px;
+    }
+
+    .second figure {
+        order: 2;
+    }
+
+    .second p {
+        margin: 0 30px 0 0 ;
+    }
+
+    .gallery img {
+        width: 13vw;
+    }
+
+    .none {
+        display: block;
+    }
+
+    .nonflex {
+        display: block;
+    }
+
+    .black {
+        margin: 60px -230px 60px -230px;
+        padding: 60px 230px 60px 230px;
+    }
+
+    .black h2 {
+        text-align: left;
+    }
+
+    .black h3 {
+        text-align: left;
+    }
+
+    .black p {
+        margin: 0;
+    }
+
+    .black figure {
+        order: 2;
+    }
+
+    .one { 
+        box-shadow: 0 0 15px 2px #f5f5f5;
+    }
+
+    .one:hover {
+        box-shadow: 0 0 15px 5px #fff;
+    }
+
+    footer {
+        padding: 90px 230px ;
+    }
+
+    footer a {
+        font-size: 30px;
+    }
+
+    footer ul {
+        width: 15vw;
+        margin-bottom: 60px;
+    }
+
+    footer li {
+        width: 35px;
+        padding: 15px;
+    }
+}
